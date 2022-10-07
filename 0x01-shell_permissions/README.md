@@ -12,7 +12,7 @@
 
 'chmod u+x,g+x,o+r hello' is the command for adding execute permissions to the owner and the group owner and read permission to other users
 
-'chmod u+x,g+x,o+x hello' is the command to add execute permission to the owner, the group owner and other users
+'chmod ugo+x hello' is the command to add execute permission to the owner, the group owner and other users
 
 'chmod 007 hello' is the command to give the owner and group owner no permissions and the users all the permissions
 
@@ -20,7 +20,7 @@
 
 'chmod --reference=olleh hello' is the command for setting the mode of the file hello the same as the file olleh
 
-'chmod u+x,g+x,o+x .' is the command for adding execute permissions to all subdirectories of the current directory for the owner, the group owner and other users
+'chmod -R ugo+x .' is the command for adding execute permissions to all subdirectories of the current directory for the owner, the group owner and other users
 
 'mkdir -m 751 my_dir' is the command for creating a directory with permission 751 in the working directory
 
