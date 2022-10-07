@@ -28,8 +28,8 @@
 
 'chown vincent:staff * 100-change_own_and_group working' is the command for changing the owner to vincent and the group owner to staff for all the files and directories in the working directory
 
-'chown vincent:staff _hello' is the command for changing the owner and group owner of hello to vincent and staff respectively
+'chown -h vincent:staff _hello' is the command for changing the owner and group owner of hello to vincent and staff respectively
 
-'chown -from=guillaume betty hello' is the command for changing the owner of the file 'hello' to betty only if it is owned by the user guillaume
+'chown --from=guillaume betty hello' is the command for changing the owner of the file 'hello' to betty only if it is owned by the user guillaume
 
-'telnet towel.blinkenlight.nl' is the command for playing the StarWars IV episode in the terminal
+'telnet towel.blinkenlights.nl' is the command for playing the StarWars IV episode in the terminal
