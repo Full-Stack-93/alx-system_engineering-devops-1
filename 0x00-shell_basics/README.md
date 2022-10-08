@@ -19,3 +19,11 @@
 'rm -r /tmp/my_first_directory' is the command to delete the stated directory
 
 'cd -' is the command to change the working directory to the previous one
+
+'ls -la . .. /boot' is a command that that lists all files including the hidden ones in the current directory, the parent of the working directory and the /boot directory in this order, in the long format
+
+'file /tmp/iamafile' is a command that prints the type of the file mentioned which is in the /tmp directory when running the command
+
+'ln -s bin/ls _ls_' is a command that creates a symbolic link to /bin/ls named _ls_ this link should be in the current working directory
+
+'cp -u *.html ..' is a command that copies all the html files from the current working directory to the parent of the current working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory 
