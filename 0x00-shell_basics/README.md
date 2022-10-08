@@ -2,7 +2,7 @@
 
 'ls' is the command to display the contents list of you current directory
 
-'cd /home' is the command  to change the working directory to the user's home directory
+'cd' is the command  to change the working directory to the user's home directory
 
 'ls -l' is the command to display the current directory's contents in a long format
 
