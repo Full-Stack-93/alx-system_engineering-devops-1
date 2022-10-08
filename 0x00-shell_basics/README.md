@@ -36,4 +36,6 @@
 
 'ls -xamp' lists all the files and directories in the current directory, separated by commas
 
-'0 string SCHOOL School data !:mime School creates a magic file with the stated name that can be used with the command file to detect school data files
+'0	string SCHOOL School data
+!:mime school
+ creates a magic file with the stated name that can be used with the command file to detect school data files
