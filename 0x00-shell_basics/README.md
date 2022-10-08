@@ -27,3 +27,14 @@
 'ln -s bin/ls _ls_' is a command that creates a symbolic link to /bin/ls named _ls_ this link should be in the current working directory
 
 'cp -u *.html ..' is a command that copies all the html files from the current working directory to the parent of the current working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory 
+
+'mv [[:upper:]]* /tmp/u' is a command that moves all files beginning with an uppercase letter to the '/tmp/u' directory
+
+'rm *~' is the command that deletes all files in the current working directory ending with '~'
+
+'mkdir -p welcome/to/school' is a command that creates the directories welcome/, welcome/to/ and welcome/to/school in the current directory
+
+'ls -xamp' lists all the files and directories in the current directory, separated by commas
+
+'0 string SCHOOL School data 
+!:mime School creates a magic file with the stated name that can be used with the command file to detect school data files
