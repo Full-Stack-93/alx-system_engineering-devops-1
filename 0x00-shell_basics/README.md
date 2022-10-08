@@ -24,7 +24,7 @@
 
 'file /tmp/iamafile' is a command that prints the type of the file mentioned which is in the /tmp directory when running the command
 
-'ln -s bin/ls _ls_' is a command that creates a symbolic link to /bin/ls named _ls_ this link should be in the current working directory
+'ln -s bin/ls ___ls___' is a command that creates a symbolic link to /bin/ls named _ls_ this link should be in the current working directory
 
 'cp -u *.html ..' is a command that copies all the html files from the current working directory to the parent of the current working directory, but only copy files that did not exist in the parent of the working directory or were newer than the versions in the parent of the working directory 
 
@@ -36,5 +36,4 @@
 
 'ls -xamp' lists all the files and directories in the current directory, separated by commas
 
-'0 string SCHOOL School data 
-!:mime School creates a magic file with the stated name that can be used with the command file to detect school data files
+'0 string SCHOOL School data !:mime School creates a magic file with the stated name that can be used with the command file to detect school data files
