@@ -1,1 +1,3 @@
-This repository is to answer about commands in Shell Permissions and Shell basics
+First task - Print Hello world with 'echo "Hello World" 
+
+Second task - Print a confused smiley with 'echo "/"(Ôo)'"
