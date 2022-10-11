@@ -28,7 +28,7 @@ Task 12 - Create a script that displays the 10 newest files in the current direc
 
 Task 13 - Take a list of words as input and print onlywords that appear exactly once. Input format: One line, one word. Output format: One line, one word. Words should be sorted with 'sort | uniq -u'
 
-Task 14 -
+Task 14 - Display lines containing the pattern “root” from the file '/etc/passwd' with 'grep -i "root" /etc/passwd'
 
 Task 15 -
 
