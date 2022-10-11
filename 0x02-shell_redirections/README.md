@@ -38,6 +38,6 @@ Task 17 - Display all the lines in the file '/etc/passwd' that do not contain th
 
 Task 18 - Display all lines of the file '/etc/ssh/sshd_config' starting with a letter. Include capital letters as well with 'grep '^[A-Za-z]' /etc/ssh/sshd_config'
 
-Task 19 -
+Task 19 - Replace all characters 'A' and 'c' from input to 'Z' and 'e' respectively with 'tr Ac Ze'
 
 Task 20 -
