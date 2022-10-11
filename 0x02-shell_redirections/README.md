@@ -26,7 +26,7 @@ Hidden directories should be counted with 'find -mindepth 1 -type d | wc -l'
 
 Task 12 - Create a script that displays the 10 newest files in the current directory. Requirements: One file per line, Sorted from the newest to the oldest with 'ls -t | head'
 
-Task 13 -
+Task 13 - Take a list of words as input and print onlywords that appear exactly once. Input format: One line, one word. Output format: One line, one word. Words should be sorted with 'sort | uniq -u'
 
 Task 14 -
 
