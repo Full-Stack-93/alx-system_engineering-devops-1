@@ -19,3 +19,25 @@ Task 8 -Write into the file 'ls_cwd_content' the result of the command 'ls -la'.
 Task 9 -Duplicate the last line of the file 'iacta' with 'tail --lines=1 iacta >> iacta'
 
 TasK 10 - Delete all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders with 'find . -name '*.js' -type f -delete'
+
+Task 11 - Count the number of directories and sub-directories in the current directory.
+The current and parent directories should not be taken into account
+Hidden directories should be counted with 'find -mindepth 1 -type d | wc -l'
+
+Task 12
+
+Task 13 -
+
+Task 14 -
+
+Task 15 -
+
+Task 16 -
+
+Task 17 -
+
+Task 18 - 
+
+Task 19 -
+
+Task 20 -
