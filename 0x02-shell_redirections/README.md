@@ -41,3 +41,5 @@ Task 18 - Display all lines of the file '/etc/ssh/sshd_config' starting with a l
 Task 19 - Replace all characters 'A' and 'c' from input to 'Z' and 'e' respectively with 'tr Ac Ze'
 
 Task 20 - Create a script that removes all letters 'c' and 'C' from input with 'tr -d cC'
+
+Task 21 - Write a script that reverse its input with 'rev'
