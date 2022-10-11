@@ -30,7 +30,7 @@ Task 13 - Take a list of words as input and print onlywords that appear exactly 
 
 Task 14 - Display lines containing the pattern “root” from the file '/etc/passwd' with 'grep -i "root" /etc/passwd'
 
-Task 15 -
+Task 15 - Display the number of lines that contain the pattern “bin” in the file '/etc/passwd' with 'grep -c "bin" /etc/passwd'
 
 Task 16 -
 
