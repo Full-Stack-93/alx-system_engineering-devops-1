@@ -32,7 +32,7 @@ Task 14 - Display lines containing the pattern “root” from the file '/etc/pa
 
 Task 15 - Display the number of lines that contain the pattern “bin” in the file '/etc/passwd' with 'grep -c "bin" /etc/passwd'
 
-Task 16 -
+Task 16 - Display lines containing the pattern “root” and 3 lines after them in the file '/etc/passwd' with 'grep -iA 3 "root" /etc/passwd'
 
 Task 17 -
 
