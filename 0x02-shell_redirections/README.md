@@ -18,4 +18,4 @@ Task 8 -Write into the file 'ls_cwd_content' the result of the command 'ls -la'.
 
 Task 9 -Duplicate the last line of the file 'iacta' with 'tail --lines=1 iacta >> iacta'
 
-TasK 10 -  
+TasK 10 - Delete all the regular files (not the directories) with a .js extension that are present in the current directory and all its subfolders with 'find . -name '*.js' -type f -delete'
