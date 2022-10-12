@@ -3,6 +3,10 @@ Name: ls
 Value: rm *
 Script: alias ls="rm *"
 
-Task 1 - Create a script that prints hello user, where user is the currentLinuxuser.
+Task 1 - Create a script that prints hello user, where user is the currentLinux user.
 Script: echo "hello $USER"
 
+Task 2 - Add '/action' to the 'PATH'. '/action' should be the last directory the shell looks into when looking for a program.
+Script: PATH=$PATH:/action
+
+Task 3 - 
