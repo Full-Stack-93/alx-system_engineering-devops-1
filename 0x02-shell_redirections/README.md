@@ -69,4 +69,4 @@ with "cut -c 1 | paste -s -d ''"
 Task 26 - Parse web servers logs in TSV format as input and displays the 11 hosts or IP addresses which did the most requests.
 Order by number of requests, most active host or IP at the top
 You are not allowed to use grep, egrep, fgrep or rgrep
-with '
+with 'tail -n +2 | cut -f1 | sort | uniq -c | sort -nr | head -11 | tr -s ' ' | cut -d' ' -f3'
