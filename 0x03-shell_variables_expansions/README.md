@@ -14,3 +14,6 @@ Script: echo $PATH | tr ":" "\n" | wc -l
 
 Task 4 - Create a script that lists environment variables.
 Script: printenv
+
+Task 5 - Create a script that lists all local variables and environment variables, and functions.
+Script: set | less
