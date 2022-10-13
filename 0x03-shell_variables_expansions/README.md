@@ -68,4 +68,6 @@ Script: tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
 Task 16 - Write a script that prints every other line from the input, starting with the first line.
 Script: cat -n | cut -b 6- | grep ^[13579] | cut -f2
 
-
+Task 17 - Write a shell script that adds the two numbers stored in the environment variables WATER and STIR and prints the result.
+Script: printf "%o\n" $(( $((5#$(echo $WATER | tr water 01234))) +$((5#$(echo $STI
+R | tr stir. 01234))) )) | tr 01234567 bestchol
