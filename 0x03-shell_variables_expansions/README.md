@@ -64,3 +64,8 @@ Script: printf %x'\n' $DECIMAL
 
 Task 15 - Write a script that encodes and decodes text using the rot13 encryption. Assume ASCII
 Script: tr '[A-Za-z]' '[N-ZA-Mn-za-m]'
+
+Task 16 - Write a script that prints every other line from the input, starting with the first line.
+Script: cat -n | cut -b 6- | grep ^[13579] | cut -f2
+
+
